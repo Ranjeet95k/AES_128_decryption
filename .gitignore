@@ -1,0 +1,75 @@
+# =========================
+# Vivado Generated Files
+# =========================
+
+# Project runs & builds
+*.runs/
+*.sim/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+
+# Simulation & synthesis outputs
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+
+# Backup & auto-generated files
+*.backup.jou
+*.backup.log
+*.backup.*
+*.tmp
+*.bak
+
+# DFX / runtime
+dfx_runtime/
+
+# Xilinx internal folder
+.Xil/
+
+# Results / output folders
+result/
+
+# =========================
+# Vivado Project Specific
+# =========================
+
+# Ignore implementation directories
+*_runs/
+*_sim/
+*_cache/
+*_gen/
+*_hw/
+
+# Ignore bitstreams, reports
+*.bit
+*.bin
+*.ltx
+*.rpt
+*.dcp
+
+# =========================
+# OS / Editor Junk
+# =========================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# KEEP THESE (Important)
+# =========================
+# Your actual source files should NOT be ignored:
+# *.v
+# *.sv
+# *.vhd
+# *.xdc
+# *.tcl
+# *.xpr (optional but useful)
